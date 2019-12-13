@@ -1,0 +1,106 @@
+a {
+  color: #ea9a88; }
+
+.c-container {
+  width: 850px;
+  margin: auto;
+  border: 1px solid black; }
+
+.c-inner-container {
+  width: 830px;
+  margin: auto;
+  border: 10px solid lightgray; }
+
+.c-header {
+  margin: 0 auto; }
+  .c-header__logo {
+    padding: 1em; }
+    .c-header__logo img {
+      display: block;
+      margin: auto;
+      width: 600px; }
+  .c-header__nav {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: end; }
+    .c-header__nav--list {
+      list-style: none;
+      padding: 0 .5em; }
+      .c-header__nav--list a {
+        font-size: 20px; }
+    .c-header__nav--span {
+      font-size: 24px;
+      color: grey; }
+  .c-header__intro {
+    font-size: 20px;
+    color: grey;
+    padding-top: .5em; }
+    .c-header__intro--text {
+      padding: .5em;
+      margin: 0 auto; }
+
+.c-advert {
+  display: flex;
+  padding: .5em; }
+  .c-advert__hero--image {
+    width: 300px;
+    padding: 0 .5em; }
+  .c-advert__hero--contact {
+    text-align: center;
+    margin: 0;
+    padding: .5em 2.4em;
+    font-size: 18px;
+    color: gray; }
+    .c-advert__hero--contact a {
+      padding: 0 .5em; }
+  .c-advert__details {
+    color: gray; }
+    .c-advert__details--title {
+      margin: 0;
+      color: #4279A3;
+      font-size: 22px;
+      padding: 0 0 .1em .5em; }
+    .c-advert__details--header {
+      margin: 0;
+      font-size: 20px;
+      padding: .1em .5em; }
+    .c-advert__details--nav {
+      display: flex; }
+      .c-advert__details--nav-list {
+        list-style: none;
+        font-size: 20px;
+        padding: .1em .5em; }
+      .c-advert__details--nav-span {
+        font-size: 24px;
+        height: 24px; }
+    .c-advert__details--text {
+      font-size: 20px;
+      padding: .1em .5em;
+      margin: 0;
+      text-align: justify; }
+
+.c-inset {
+  display: flex;
+  position: relative; }
+  .c-inset__hero {
+    width: 170px;
+    padding: 0 .5em; }
+  .c-inset__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: gray; }
+    .c-inset__info--list {
+      list-style: none;
+      font-size: 20px; }
+      .c-inset__info--list a {
+        padding-left: 5px; }
+
+.c-footer {
+  color: gray;
+  font-size: 18px; }
+  .c-footer__main {
+    padding: 0 .5em; }
+    .c-footer__main--text a {
+      padding-left: 5px; }
